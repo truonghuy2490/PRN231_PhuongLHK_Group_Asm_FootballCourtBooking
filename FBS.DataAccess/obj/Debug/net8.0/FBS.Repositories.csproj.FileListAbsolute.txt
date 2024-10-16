@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.deps.json
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.runtimeconfig.json
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.dll
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.pdb
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.AssemblyInfo.cs
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.dll
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\refint\FBS.Repositories.dll
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.pdb
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.genruntimeconfig.cache
+C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\ref\FBS.Repositories.dll

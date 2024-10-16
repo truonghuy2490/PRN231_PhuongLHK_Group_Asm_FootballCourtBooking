@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "utmql+nh9uoxGbfuUsAcJksqP8LXvGIh+sdA/quDek0=",
+  "Source": "FBS.API",
+  "BasePath": "_content/FBS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

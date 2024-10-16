@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FBS.BusinessLogics": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
