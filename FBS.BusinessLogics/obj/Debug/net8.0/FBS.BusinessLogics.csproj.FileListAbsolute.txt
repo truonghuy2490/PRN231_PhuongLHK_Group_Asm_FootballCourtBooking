@@ -15,3 +15,21 @@ C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessLogics\bin\De
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessLogics\bin\Debug\net8.0\FBS.Repositories.pdb
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.csproj.AssemblyReference.cache
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessLogics\obj\Debug\net8.0\FBS.Busi.FF7E84C5.Up2Date
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.BusinessLogics.deps.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.BusinessLogics.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.BusinessLogics.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.BusinessObjects.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\bin\Debug\net8.0\FBS.Repositories.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.csproj.AssemblyReference.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.AssemblyInfoInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.AssemblyInfo.cs
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.csproj.CoreCompileInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.sourcelink.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.Busi.FF7E84C5.Up2Date
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\refint\FBS.BusinessLogics.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\FBS.BusinessLogics.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessLogics\obj\Debug\net8.0\ref\FBS.BusinessLogics.dll

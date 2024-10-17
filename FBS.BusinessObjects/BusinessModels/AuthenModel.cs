@@ -13,15 +13,24 @@ public class AuthenModel{
         public string? Password { get; set; }
     }
 
-    public class ResponseLoginDTO
+    public class ResponseLoginModel
     {
-        public bool IsSuccess { get; set; } = true;
-        public string Message { get; set; } = "";
+        public bool IsSuccess { get; set; }
+        public string Message { get; set; }
         public string? AccessToken { get; set; }
+        public RefreshToken? RefreshToken { get; set; }
+
+        public ResponseLoginModel(bool isSuccess, string message, string? accessToken, RefreshToken? refreshToken)
+        {
+            IsSuccess = isSuccess;
+            Message = message;
+            AccessToken = accessToken;
+            RefreshToken = refreshToken;
+        }
     }
     public class TokenRequest
     {
-
+        public RefreshToken? RefreshToken { get; set; }
     }
     public class RefreshToken
     {

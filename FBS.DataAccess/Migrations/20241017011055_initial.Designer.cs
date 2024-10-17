@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FBS.Repositories.Migrations
 {
     [DbContext(typeof(FootballCourtBookingContext))]
-    [Migration("20241016023953_Initial")]
-    partial class Initial
+    [Migration("20241017011055_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -56,7 +56,7 @@ namespace FBS.Repositories.Migrations
                         .HasColumnName("UserID");
 
                     b.HasKey("BookingId")
-                        .HasName("PK__Bookings__73951ACD315AF178");
+                        .HasName("PK__Bookings__73951ACD16F6961B");
 
                     b.HasIndex("SlotId");
 
@@ -104,7 +104,7 @@ namespace FBS.Repositories.Migrations
                         .HasDefaultValue(true);
 
                     b.HasKey("CourtId")
-                        .HasName("PK__Courts__C3A67CFAC4F4694F");
+                        .HasName("PK__Courts__C3A67CFABF5B893E");
 
                     b.HasIndex("OwnerId");
 
@@ -139,9 +139,9 @@ namespace FBS.Repositories.Migrations
                         .HasColumnType("time");
 
                     b.HasKey("SlotId")
-                        .HasName("PK__CourtSlo__0A124A4F2B1A6047");
+                        .HasName("PK__CourtSlo__0A124A4FB0258D93");
 
-                    b.HasIndex(new[] { "CourtId", "Date", "StartTime" }, "UQ__CourtSlo__D8CD2323DE5D7194")
+                    b.HasIndex(new[] { "CourtId", "Date", "StartTime" }, "UQ__CourtSlo__D8CD23231E2C0647")
                         .IsUnique();
 
                     b.ToTable("CourtSlots");
@@ -179,7 +179,7 @@ namespace FBS.Repositories.Migrations
                         .HasColumnName("TransactionID");
 
                     b.HasKey("PaymentId")
-                        .HasName("PK__Payments__9B556A582F266537");
+                        .HasName("PK__Payments__9B556A5819D944FB");
 
                     b.HasIndex("BookingId");
 
@@ -220,7 +220,7 @@ namespace FBS.Repositories.Migrations
                         .HasColumnName("UserID");
 
                     b.HasKey("ReviewId")
-                        .HasName("PK__Reviews__74BC79AEF6CE928D");
+                        .HasName("PK__Reviews__74BC79AE4A1C39B7");
 
                     b.HasIndex("BookingId");
 
@@ -258,7 +258,7 @@ namespace FBS.Repositories.Migrations
                         .HasColumnName("ReviewID");
 
                     b.HasKey("ReplyId")
-                        .HasName("PK__ReviewRe__C25E462960CF9131");
+                        .HasName("PK__ReviewRe__C25E4629AC8BB398");
 
                     b.HasIndex("OwnerId");
 
@@ -296,10 +296,15 @@ namespace FBS.Repositories.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
-                    b.Property<string>("PasswordHash")
+                    b.Property<byte[]>("PasswordHash")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasMaxLength(512)
+                        .HasColumnType("varbinary(512)");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired()
+                        .HasMaxLength(512)
+                        .HasColumnType("varbinary(512)");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -312,12 +317,12 @@ namespace FBS.Repositories.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.HasKey("UserId")
-                        .HasName("PK__Users__1788CCAC559D1B1E");
+                        .HasName("PK__Users__1788CCAC56F2B21D");
 
-                    b.HasIndex(new[] { "Email" }, "UQ__Users__A9D10534CDCF9EF3")
+                    b.HasIndex(new[] { "Email" }, "UQ__Users__A9D10534A57D636B")
                         .IsUnique();
 
-                    b.HasIndex(new[] { "UserName" }, "UQ__Users__C9F2845629DA2283")
+                    b.HasIndex(new[] { "UserName" }, "UQ__Users__C9F28456EF09110E")
                         .IsUnique();
 
                     b.ToTable("Users");
@@ -329,13 +334,13 @@ namespace FBS.Repositories.Migrations
                         .WithMany("Bookings")
                         .HasForeignKey("SlotId")
                         .IsRequired()
-                        .HasConstraintName("FK__Bookings__SlotID__4F7CD00D");
+                        .HasConstraintName("FK__Bookings__SlotID__49C3F6B7");
 
                     b.HasOne("FBS.Repositories.Entities.User", "User")
                         .WithMany("Bookings")
                         .HasForeignKey("UserId")
                         .IsRequired()
-                        .HasConstraintName("FK__Bookings__UserID__4E88ABD4");
+                        .HasConstraintName("FK__Bookings__UserID__48CFD27E");
 
                     b.Navigation("Slot");
 
@@ -373,7 +378,7 @@ namespace FBS.Repositories.Migrations
                         .HasForeignKey("BookingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("FK__Payments__Bookin__5441852A");
+                        .HasConstraintName("FK__Payments__Bookin__4E88ABD4");
 
                     b.Navigation("Booking");
                 });
@@ -385,19 +390,19 @@ namespace FBS.Repositories.Migrations
                         .HasForeignKey("BookingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("FK__Reviews__Booking__5FB337D6");
+                        .HasConstraintName("FK__Reviews__Booking__534D60F1");
 
                     b.HasOne("FBS.Repositories.Entities.Court", "Court")
                         .WithMany("Reviews")
                         .HasForeignKey("CourtId")
                         .IsRequired()
-                        .HasConstraintName("FK__Reviews__CourtID__619B8048");
+                        .HasConstraintName("FK__Reviews__CourtID__5535A963");
 
                     b.HasOne("FBS.Repositories.Entities.User", "User")
                         .WithMany("Reviews")
                         .HasForeignKey("UserId")
                         .IsRequired()
-                        .HasConstraintName("FK__Reviews__UserID__60A75C0F");
+                        .HasConstraintName("FK__Reviews__UserID__5441852A");
 
                     b.Navigation("Booking");
 
@@ -412,14 +417,14 @@ namespace FBS.Repositories.Migrations
                         .WithMany("ReviewReplies")
                         .HasForeignKey("OwnerId")
                         .IsRequired()
-                        .HasConstraintName("FK__ReviewRep__Owner__66603565");
+                        .HasConstraintName("FK__ReviewRep__Owner__59FA5E80");
 
                     b.HasOne("FBS.Repositories.Entities.Review", "Review")
                         .WithMany("ReviewReplies")
                         .HasForeignKey("ReviewId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("FK__ReviewRep__Revie__656C112C");
+                        .HasConstraintName("FK__ReviewRep__Revie__59063A47");
 
                     b.Navigation("Owner");
 
