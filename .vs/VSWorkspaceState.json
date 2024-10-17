@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FBS.API",
+    "\\FBS.API\\Controllers",
+    "\\FBS.BusinessObjects",
+    "\\FBS.BusinessObjects\\BusinessModels"
+  ],
+  "SelectedNode": "\\FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
+  "PreviewInSolutionExplorer": false
+}
