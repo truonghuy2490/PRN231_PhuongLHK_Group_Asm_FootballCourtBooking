@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FBS.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f315ca126057030ce7db8aef4b089800ab0ea0b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85cbe5637c3b88e91f16a42647d8ae787dbb7927")]
 [assembly: System.Reflection.AssemblyProductAttribute("FBS.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FBS.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

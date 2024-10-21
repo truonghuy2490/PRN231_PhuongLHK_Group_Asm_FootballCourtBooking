@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FBS.Repositories
-build_property.ProjectDir = C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\
+build_property.ProjectDir = C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
