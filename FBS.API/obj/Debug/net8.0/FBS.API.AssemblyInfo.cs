@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FBS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+951abd24224f5548649ebf0d54eb44b2f3e45a6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f315ca126057030ce7db8aef4b089800ab0ea0b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("FBS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FBS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
