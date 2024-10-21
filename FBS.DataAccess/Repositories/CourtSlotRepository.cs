@@ -20,7 +20,7 @@ namespace FBS.Repositories.Repositories
 
         Task<CourtSlot> DeleteCourtSlot(CourtSlot courtSlot);
     }
-    public class CourtSlotRepository(FootballCourtBookingContext repositoryContext)
+    public class CourtSlotRepository(FootballBookingSystemContext repositoryContext)
         : RepositoryBase<User>(repositoryContext), ICourtSlotRepository
     {
         public Task<bool> CreateAsync(CourtSlot entity)

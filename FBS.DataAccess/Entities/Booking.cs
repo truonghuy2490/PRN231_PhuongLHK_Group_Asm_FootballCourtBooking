@@ -7,7 +7,7 @@ public partial class Booking
 {
     public int BookingId { get; set; }
 
-    public int UserId { get; set; }
+    public int BookedId { get; set; }
 
     public int SlotId { get; set; }
 
@@ -17,11 +17,13 @@ public partial class Booking
 
     public string Status { get; set; } = null!;
 
+    public virtual User Booked { get; set; } = null!;
+
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 
-    public virtual CourtSlot Slot { get; set; } = null!;
+    public virtual ICollection<SharedBooking> SharedBookings { get; set; } = new List<SharedBooking>();
 
-    public virtual User User { get; set; } = null!;
+    public virtual CourtSlot Slot { get; set; } = null!;
 }

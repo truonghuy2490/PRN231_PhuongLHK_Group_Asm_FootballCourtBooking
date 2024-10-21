@@ -28,7 +28,7 @@ namespace FBS.Repositories.Repositories
         Task<bool> UpdateAsync(T entity);
         Task<bool> SaveChange();
     }
-    public class RepositoryBase<T>(FootballCourtBookingContext repositoryContext) : IRepositoryBase<T>
+    public class RepositoryBase<T>(FootballBookingSystemContext repositoryContext) : IRepositoryBase<T>
     where T : class
     {
         public async Task<List<TResult>> FindAllAsync<TResult>(

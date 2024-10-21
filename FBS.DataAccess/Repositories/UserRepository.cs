@@ -20,9 +20,11 @@ namespace FBS.Repositories.Repositories
 
         Task<User> DeleteUser(User user);
     }
-    public class UserRepository(FootballCourtBookingContext repositoryContext)
+    public class UserRepository(FootballBookingSystemContext repositoryContext)
         : RepositoryBase<User>(repositoryContext), IUserRepository
     {
+        private readonly FootballBookingSystemContext _repositoryContext = repositoryContext;
+
         public Task<User> CreateUser(User user)
         {
             throw new NotImplementedException();
@@ -36,7 +38,7 @@ namespace FBS.Repositories.Repositories
         public async Task<User?> GetUserByProperties(string properties, string values)
         {
             // let hardcode by username
-            var user = await repositoryContext.Users.FirstOrDefaultAsync(x => x.UserName == values);
+            var user = await _repositoryContext.Users.FirstOrDefaultAsync(x => x.UserName == values);
             return user;
         }
 

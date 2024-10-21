@@ -17,7 +17,7 @@ namespace FBS.Repositories.Repositories
         IReviewRepository ReviewRepository { get; }
         IUserRepository UserRepository { get; }
     }
-    public class UnitOfWork(FootballCourtBookingContext context, IConfiguration configuration) : IUnitOfWork
+    public class UnitOfWork(FootballBookingSystemContext context, IConfiguration configuration) : IUnitOfWork
     {
         public IAuthRepository AuthRepository { get; } = new AuthRepository(configuration);
         

@@ -17,6 +17,8 @@ public partial class CourtSlot
 
     public DateOnly Date { get; set; }
 
+    public bool IsActive { get; set; }
+
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
     public virtual Court Court { get; set; } = null!;

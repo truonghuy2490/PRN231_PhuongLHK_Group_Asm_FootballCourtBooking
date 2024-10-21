@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  fbs.api:
+    build:
+      context: "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking"
+      dockerfile: "FBS.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/FBS.API.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "fbs.api:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Alien Ware\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\\
+      FBS.API:/app:rw"
+    - "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking:/src:rw"
+    working_dir: "/app"

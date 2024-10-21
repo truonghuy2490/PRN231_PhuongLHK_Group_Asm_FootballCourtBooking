@@ -19,7 +19,7 @@ namespace FBS.Repositories.Repositories
 
         Task<ReviewReply> DeleteReviewReply(ReviewReply reviewReply);
     }
-    public class ReviewReplyRepository(FootballCourtBookingContext repositoryContext)
+    public class ReviewReplyRepository(FootballBookingSystemContext repositoryContext)
         : RepositoryBase<User>(repositoryContext), IReviewReplyRepository
     {
         public Task<ReviewReply> CreateReviewReply(ReviewReply reviewReply)

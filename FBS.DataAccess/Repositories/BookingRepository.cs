@@ -20,7 +20,7 @@ namespace FBS.Repositories.Repositories
 
         Task<Booking> DeleteBooking(Booking booking);
     }
-    public class BookingRepository(FootballCourtBookingContext repositoryContext)
+    public class BookingRepository(FootballBookingSystemContext repositoryContext)
         : RepositoryBase<User>(repositoryContext), IBookingRepository
     {
         public Task<bool> CreateAsync(Booking entity)

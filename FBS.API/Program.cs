@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 });
 // Add services to the container.
 
-builder.Services.AddDbContext<FootballCourtBookingContext>(options =>
+builder.Services.AddDbContext<FootballBookingSystemContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"))
             );
 builder.Services.AddControllers();
@@ -30,6 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();

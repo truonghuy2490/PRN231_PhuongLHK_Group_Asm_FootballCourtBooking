@@ -15,7 +15,9 @@ public partial class ReviewReply
 
     public DateTime ReplyDate { get; set; }
 
-    public virtual User Owner { get; set; } = null!;
+    public bool IsActive { get; set; }
+
+    public virtual CourtOwner Owner { get; set; } = null!;
 
     public virtual Review Review { get; set; } = null!;
 }

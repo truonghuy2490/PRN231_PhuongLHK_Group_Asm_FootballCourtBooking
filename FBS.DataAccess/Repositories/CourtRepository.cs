@@ -20,7 +20,7 @@ namespace FBS.Repositories.Repositories
 
         Task<Court> DeleteCourt(Court court);
     }
-    public class CourtRepository(FootballCourtBookingContext repositoryContext)
+    public class CourtRepository(FootballBookingSystemContext repositoryContext)
         : RepositoryBase<User>(repositoryContext), ICourtRepository
     {
         public Task<bool> CreateAsync(Court entity)

@@ -19,6 +19,8 @@ public partial class Review
 
     public DateTime ReviewDate { get; set; }
 
+    public bool IsActive { get; set; }
+
     public virtual Booking Booking { get; set; } = null!;
 
     public virtual Court Court { get; set; } = null!;

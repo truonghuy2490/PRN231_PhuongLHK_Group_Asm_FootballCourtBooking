@@ -17,11 +17,11 @@ namespace FBS.API.Controllers
     [ApiController]
     public class BookingsController : ControllerBase
     {
-        private readonly FootballCourtBookingContext _context;
+        private readonly FootballBookingSystemContext _context;
         private readonly IMapper _mapper;
 
       
-        public BookingsController(FootballCourtBookingContext context, IMapper mapper)
+        public BookingsController(FootballBookingSystemContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
