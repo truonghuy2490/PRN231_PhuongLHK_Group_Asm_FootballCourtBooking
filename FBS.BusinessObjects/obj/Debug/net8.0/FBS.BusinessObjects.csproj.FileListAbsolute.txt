@@ -10,3 +10,16 @@ C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessObjects\obj\D
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessObjects\obj\Debug\net8.0\refint\FBS.BusinessObjects.dll
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.pdb
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.BusinessObjects\obj\Debug\net8.0\ref\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\bin\Debug\net8.0\FBS.BusinessObjects.deps.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\bin\Debug\net8.0\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\bin\Debug\net8.0\FBS.BusinessObjects.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.AssemblyInfo.cs
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.sourcelink.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\refint\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\FBS.BusinessObjects.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.BusinessObjects\obj\Debug\net8.0\ref\FBS.BusinessObjects.dll

@@ -30,11 +30,12 @@ public partial class FootballCourtBookingContext : DbContext
     public virtual DbSet<ReviewReply> ReviewReplies { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
+
     private string? GetConnectionString()
     {
         IConfiguration configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", true, true).Build();
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", true, true).Build();
         return configuration["ConnectionStrings:DefaultConnectionString"];
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
@@ -43,7 +44,7 @@ public partial class FootballCourtBookingContext : DbContext
     {
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BookingId).HasName("PK__Bookings__73951ACD315AF178");
+            entity.HasKey(e => e.BookingId).HasName("PK__Bookings__73951ACD16F6961B");
 
             entity.Property(e => e.BookingId).HasColumnName("BookingID");
             entity.Property(e => e.BookingDate)
@@ -57,17 +58,17 @@ public partial class FootballCourtBookingContext : DbContext
             entity.HasOne(d => d.Slot).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.SlotId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Bookings__SlotID__4F7CD00D");
+                .HasConstraintName("FK__Bookings__SlotID__49C3F6B7");
 
             entity.HasOne(d => d.User).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Bookings__UserID__4E88ABD4");
+                .HasConstraintName("FK__Bookings__UserID__48CFD27E");
         });
 
         modelBuilder.Entity<Court>(entity =>
         {
-            entity.HasKey(e => e.CourtId).HasName("PK__Courts__C3A67CFAC4F4694F");
+            entity.HasKey(e => e.CourtId).HasName("PK__Courts__C3A67CFABF5B893E");
 
             entity.Property(e => e.CourtId).HasColumnName("CourtID");
             entity.Property(e => e.Address).HasMaxLength(255);
@@ -84,9 +85,9 @@ public partial class FootballCourtBookingContext : DbContext
 
         modelBuilder.Entity<CourtSlot>(entity =>
         {
-            entity.HasKey(e => e.SlotId).HasName("PK__CourtSlo__0A124A4F2B1A6047");
+            entity.HasKey(e => e.SlotId).HasName("PK__CourtSlo__0A124A4FB0258D93");
 
-            entity.HasIndex(e => new { e.CourtId, e.Date, e.StartTime }, "UQ__CourtSlo__D8CD2323DE5D7194").IsUnique();
+            entity.HasIndex(e => new { e.CourtId, e.Date, e.StartTime }, "UQ__CourtSlo__D8CD23231E2C0647").IsUnique();
 
             entity.Property(e => e.SlotId).HasColumnName("SlotID");
             entity.Property(e => e.CourtId).HasColumnName("CourtID");
@@ -99,7 +100,7 @@ public partial class FootballCourtBookingContext : DbContext
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.PaymentId).HasName("PK__Payments__9B556A582F266537");
+            entity.HasKey(e => e.PaymentId).HasName("PK__Payments__9B556A5819D944FB");
 
             entity.Property(e => e.PaymentId).HasColumnName("PaymentID");
             entity.Property(e => e.Amount).HasColumnType("decimal(18, 2)");
@@ -114,12 +115,12 @@ public partial class FootballCourtBookingContext : DbContext
 
             entity.HasOne(d => d.Booking).WithMany(p => p.Payments)
                 .HasForeignKey(d => d.BookingId)
-                .HasConstraintName("FK__Payments__Bookin__5441852A");
+                .HasConstraintName("FK__Payments__Bookin__4E88ABD4");
         });
 
         modelBuilder.Entity<Review>(entity =>
         {
-            entity.HasKey(e => e.ReviewId).HasName("PK__Reviews__74BC79AEF6CE928D");
+            entity.HasKey(e => e.ReviewId).HasName("PK__Reviews__74BC79AE4A1C39B7");
 
             entity.Property(e => e.ReviewId).HasColumnName("ReviewID");
             entity.Property(e => e.BookingId).HasColumnName("BookingID");
@@ -133,22 +134,22 @@ public partial class FootballCourtBookingContext : DbContext
 
             entity.HasOne(d => d.Booking).WithMany(p => p.Reviews)
                 .HasForeignKey(d => d.BookingId)
-                .HasConstraintName("FK__Reviews__Booking__5FB337D6");
+                .HasConstraintName("FK__Reviews__Booking__534D60F1");
 
             entity.HasOne(d => d.Court).WithMany(p => p.Reviews)
                 .HasForeignKey(d => d.CourtId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reviews__CourtID__619B8048");
+                .HasConstraintName("FK__Reviews__CourtID__5535A963");
 
             entity.HasOne(d => d.User).WithMany(p => p.Reviews)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reviews__UserID__60A75C0F");
+                .HasConstraintName("FK__Reviews__UserID__5441852A");
         });
 
         modelBuilder.Entity<ReviewReply>(entity =>
         {
-            entity.HasKey(e => e.ReplyId).HasName("PK__ReviewRe__C25E462960CF9131");
+            entity.HasKey(e => e.ReplyId).HasName("PK__ReviewRe__C25E4629AC8BB398");
 
             entity.Property(e => e.ReplyId).HasColumnName("ReplyID");
             entity.Property(e => e.OwnerId).HasColumnName("OwnerID");
@@ -161,31 +162,33 @@ public partial class FootballCourtBookingContext : DbContext
             entity.HasOne(d => d.Owner).WithMany(p => p.ReviewReplies)
                 .HasForeignKey(d => d.OwnerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ReviewRep__Owner__66603565");
+                .HasConstraintName("FK__ReviewRep__Owner__59FA5E80");
 
             entity.HasOne(d => d.Review).WithMany(p => p.ReviewReplies)
                 .HasForeignKey(d => d.ReviewId)
-                .HasConstraintName("FK__ReviewRep__Revie__656C112C");
+                .HasConstraintName("FK__ReviewRep__Revie__59063A47");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCAC559D1B1E");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCAC56F2B21D");
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D10534CDCF9EF3").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D10534A57D636B").IsUnique();
 
-            entity.HasIndex(e => e.UserName, "UQ__Users__C9F2845629DA2283").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__Users__C9F28456EF09110E").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("UserID");
             entity.Property(e => e.DateCreated).HasDefaultValueSql("(getdate())");
             entity.Property(e => e.Email).HasMaxLength(255);
             entity.Property(e => e.FullName).HasMaxLength(255);
             entity.Property(e => e.IsActive).HasDefaultValue(true);
-            entity.Property(e => e.PasswordHash).HasMaxLength(255);
+            entity.Property(e => e.PasswordHash).HasMaxLength(512);
+            entity.Property(e => e.PasswordSalt).HasMaxLength(512);
             entity.Property(e => e.Role).HasMaxLength(50);
             entity.Property(e => e.UserName).HasMaxLength(255);
         });
 
+       
         OnModelCreatingPartial(modelBuilder);
     }
 

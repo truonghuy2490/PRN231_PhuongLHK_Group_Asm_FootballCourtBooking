@@ -41,3 +41,46 @@ C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\bin\Debug\Microsoft.Ident
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\bin\Debug\Microsoft.IdentityModel.Logging.dll
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\bin\Debug\FBS.BusinessLogics.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\appsettings.Development.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\appsettings.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.API.deps.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.API.runtimeconfig.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.API.exe
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.API.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\AutoMapper.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.BusinessObjects.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.BusinessLogics.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.API.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.Repositories.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.BusinessObjects.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\bin\Debug\FBS.BusinessLogics.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\obj\Debug\docker-c.35A3FFBA.Up2Date

@@ -4344,19 +4344,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Alien Ware\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj",
       "projectName": "FBS.Repositories",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj",
+      "packagesPath": "C:\\Users\\Alien Ware\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alien Ware\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4377,11 +4377,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

@@ -23,9 +23,13 @@ namespace FBS.API.DependencyInjections
             services.AddScoped<ICourtSlotService, CourtSlotService>();
             services.AddScoped<IReviewReplyService,  ReviewReplyService>();
             services.AddScoped<IReviewService, ReviewService>();
-            services.AddScoped<IUserService, UserService>();    
+            services.AddScoped<IUserService, UserService>();
+
+            // IUnitOfWork 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // Repositories:
+            services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IBookingRepository, BookingRepository>();
             services.AddScoped<ICourtRepository, CourtRepository>();
             services.AddScoped<ICourtSlotRepository, CourtSlotRepository>();
@@ -35,7 +39,6 @@ namespace FBS.API.DependencyInjections
 
             // Services:
             // Authentication
-            var key = Encoding.ASCII.GetBytes("YourSecretKeyHere");
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -43,10 +46,12 @@ namespace FBS.API.DependencyInjections
             })
             .AddJwtBearer(options =>
             {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"] ?? string.Empty)),
                     ValidateIssuer = false,
                     ValidateAudience = false,
                     ValidateLifetime = true,

@@ -12,3 +12,18 @@ C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.pdb
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.genruntimeconfig.cache
 C:\Users\Admin\source\repos\PRN231_PhuongLHK_Group_Asm\FBS.DataAccess\obj\Debug\net8.0\ref\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.deps.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.runtimeconfig.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\bin\Debug\net8.0\FBS.Repositories.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.csproj.AssemblyReference.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.AssemblyInfoInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.AssemblyInfo.cs
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.sourcelink.json
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\refint\FBS.Repositories.dll
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.pdb
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\FBS.Repositories.genruntimeconfig.cache
+C:\Users\Alien Ware\RiderProjects\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\FBS.DataAccess\obj\Debug\net8.0\ref\FBS.Repositories.dll

@@ -3,31 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace FBS.Repositories.Repositories
 {
     public interface IUnitOfWork
     {
-        IBookingRepository bookingRepository { get; }
-        ICourtSlotRepository courtSlotRepository { get; }
-        ICourtRepository courtRepository { get; }
-        IReviewReplyRepository reviewReplyRepository { get; }
-        IReviewRepository reviewRepository { get; }
-        IUserRepository userRepository { get; }
+        IAuthRepository AuthRepository { get; }
+        IBookingRepository BookingRepository { get; }
+        ICourtSlotRepository CourtSlotRepository { get; }
+        ICourtRepository CourtRepository { get; }
+        IReviewReplyRepository ReviewReplyRepository { get; }
+        IReviewRepository ReviewRepository { get; }
+        IUserRepository UserRepository { get; }
     }
-    public class UnitOfWork(FootballCourtBookingContext context) : IUnitOfWork
+    public class UnitOfWork(FootballCourtBookingContext context, IConfiguration configuration) : IUnitOfWork
     {
-        public IBookingRepository bookingRepository { get; } = new BookingRepository(context);
+        public IAuthRepository AuthRepository { get; } = new AuthRepository(configuration);
+        
+        public IBookingRepository BookingRepository { get; } = new BookingRepository(context);
 
-        public ICourtSlotRepository courtSlotRepository { get; } = new CourtSlotRepository(context);
+        public ICourtSlotRepository CourtSlotRepository { get; } = new CourtSlotRepository(context);
 
-        public ICourtRepository courtRepository { get; } = new CourtRepository(context);
+        public ICourtRepository CourtRepository { get; } = new CourtRepository(context);
 
-        public IReviewReplyRepository reviewReplyRepository { get; } = new ReviewReplyRepository(context);
+        public IReviewReplyRepository ReviewReplyRepository { get; } = new ReviewReplyRepository(context);
 
-        public IReviewRepository reviewRepository { get; } = new ReviewRepository(context);
+        public IReviewRepository ReviewRepository { get; } = new ReviewRepository(context);
 
-        public IUserRepository userRepository { get; } = new UserRepository(context);
+        public IUserRepository UserRepository { get; } = new UserRepository(context);
 
     }
 }

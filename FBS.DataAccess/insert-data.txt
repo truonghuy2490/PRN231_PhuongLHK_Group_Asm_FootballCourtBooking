@@ -12,7 +12,8 @@ CREATE TABLE Users (
     FullName NVARCHAR(255) NOT NULL,
     UserName NVARCHAR(255) NOT NULL UNIQUE,
     Email NVARCHAR(255) NOT NULL UNIQUE,
-    PasswordHash NVARCHAR(255) NOT NULL, -- Assuming the hashed password will fit within NVARCHAR(255)
+    PasswordHash VARBINARY(512) NOT NULL,
+    PasswordSalt VARBINARY(512) NOT NULL,
     Role NVARCHAR(50) NOT NULL CHECK (Role IN ('Player', 'Owner')),
     DateCreated DATE NOT NULL DEFAULT GETDATE(),
     IsActive BIT NOT NULL DEFAULT 1
@@ -100,13 +101,13 @@ GO
 
 
 -- Insert sample data into Users table
-INSERT INTO Users (FullName, UserName, Email, PasswordHash, Role, DateCreated, IsActive) VALUES
-('John Doe', 'johndoe', 'john@example.com', 'hashedpassword1', 'Player', GETDATE(), 1),
-('Jane Smith', 'janesmith', 'jane@example.com', 'hashedpassword2', 'Player', GETDATE(), 1),
-('Mark Johnson', 'markj', 'mark@example.com', 'hashedpassword3', 'Owner', GETDATE(), 1),
-('Lucy Brown', 'lucyb', 'lucy@example.com', 'hashedpassword4', 'Owner', GETDATE(), 1),
-('Sam Wilson', 'samwilson', 'sam@example.com', 'hashedpassword5', 'Player', GETDATE(), 1),
-('Anna Taylor', 'annat', 'anna@example.com', 'hashedpassword6', 'Player', GETDATE(), 1);
+INSERT INTO Users (FullName, UserName, Email, PasswordHash, PasswordSalt, Role, DateCreated, IsActive) VALUES
+('John Doe', 'johndoe', 'john@example.com', CONVERT(VARBINARY(512), 'hashedpassword1'), CONVERT(VARBINARY(512), 'salt1'), 'Player', GETDATE(), 1),
+('Jane Smith', 'janesmith', 'jane@example.com', CONVERT(VARBINARY(512), 'hashedpassword2'), CONVERT(VARBINARY(512), 'salt2'), 'Player', GETDATE(), 1),
+('Mark Johnson', 'markj', 'mark@example.com', CONVERT(VARBINARY(512), 'hashedpassword3'), CONVERT(VARBINARY(512), 'salt3'), 'Owner', GETDATE(), 1),
+('Lucy Brown', 'lucyb', 'lucy@example.com', CONVERT(VARBINARY(512), 'hashedpassword4'), CONVERT(VARBINARY(512), 'salt4'), 'Owner', GETDATE(), 1),
+('Sam Wilson', 'samwilson', 'sam@example.com', CONVERT(VARBINARY(512), 'hashedpassword5'), CONVERT(VARBINARY(512), 'salt5'), 'Player', GETDATE(), 1),
+('Anna Taylor', 'annat', 'anna@example.com', CONVERT(VARBINARY(512), 'hashedpassword6'), CONVERT(VARBINARY(512), 'salt6'), 'Player', GETDATE(), 1);
 GO
 
 -- Insert sample data into Courts table

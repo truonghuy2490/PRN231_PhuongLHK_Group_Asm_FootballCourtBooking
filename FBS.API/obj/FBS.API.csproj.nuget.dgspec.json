@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.API\\FBS.API.csproj": {}
+    "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\FBS.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.API\\FBS.API.csproj": {
+    "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\FBS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.API\\FBS.API.csproj",
+        "projectUniqueName": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\FBS.API.csproj",
         "projectName": "FBS.API",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.API\\FBS.API.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.API\\obj\\",
+        "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\FBS.API.csproj",
+        "packagesPath": "C:\\Users\\Alien Ware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alien Ware\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj"
+              "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj": {
+                "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj"
               },
-              "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj"
+              "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj"
               }
             }
           }
@@ -42,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -107,17 +102,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj": {
+    "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj",
+        "projectUniqueName": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj",
         "projectName": "FBS.BusinessLogics",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessLogics\\obj\\",
+        "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj",
+        "packagesPath": "C:\\Users\\Alien Ware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alien Ware\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,11 +127,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj"
+              "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj"
               },
-              "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj"
+              "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj"
               }
             }
           }
@@ -145,11 +140,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -181,17 +171,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
+    "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
         "projectName": "FBS.BusinessObjects",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.BusinessObjects\\obj\\",
+        "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\Alien Ware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alien Ware\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,11 +202,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -248,17 +233,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj": {
+    "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj",
         "projectName": "FBS.Repositories",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\FBS.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\PRN231_PhuongLHK_Group_Asm\\FBS.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Alien Ware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alien Ware\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -279,11 +264,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
