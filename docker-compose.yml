@@ -1,0 +1,26 @@
+﻿version: '3.8'
+
+services:
+  fbs.api:
+    build:
+      context: .
+      dockerfile: FBS.API/Dockerfile
+    ports:
+      - "8080:8080" # HTTP
+      - "8081:8081" # HTTPS
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnectionString=Server=sqlserverdb;User Id=sa;Password=YourStrong!Passw0rd;Database=FootballBookingSystem;TrustServerCertificate=True;
+  
+  sqlserverdb:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+
+volumes:
+  sqlserverdata:

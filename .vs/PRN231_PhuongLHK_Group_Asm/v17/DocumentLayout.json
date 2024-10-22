@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C84206DC-836B-43D1-9095-69DC86ABA798}|Solution Items{C84206DC-836B-43D1-9095-69DC86ABA798}|C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C84206DC-836B-43D1-9095-69DC86ABA798}|Solution Items{C84206DC-836B-43D1-9095-69DC86ABA798}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|solutionrelative:fbs.dataaccess\\fbs.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.dataaccess\\insert-data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|solutionrelative:fbs.dataaccess\\insert-data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.dataaccess\\migrations\\footballcourtbookingcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|solutionrelative:fbs.dataaccess\\migrations\\footballcourtbookingcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.dataaccess\\footballcourtbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218EE56F-AC54-4CEA-A023-7B314120A9E3}|FBS.DataAccess\\FBS.Repositories.csproj|solutionrelative:fbs.dataaccess\\footballcourtbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E73C3821-974A-4A76-9D69-37EB15C1F1C4}|FBS.BusinessObjects\\FBS.BusinessObjects.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.businessobjects\\businessmodels\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,14 +203,6 @@
       "RelativeMoniker": "D:0:0:{4E819450-209A-4E8C-9727-3004F813DE49}|FBS.BusinessLogics\\FBS.BusinessLogics.csproj|solutionrelative:fbs.businesslogics\\fbs.businesslogics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C465FB2-CBB3-4C4A-BCBC-2308CF4860B5}|docker-compose.dcproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C465FB2-CBB3-4C4A-BCBC-2308CF4860B5}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|c:\\users\\alien ware\\riderprojects\\prn231_phuonglhk_group_asm_footballcourtbooking\\fbs.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7D7052EE-D0C6-41D9-9933-6F114BF7DCF5}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -229,6 +221,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Migrations\\20241016023953_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FBS.DataAccess\\Migrations\\20241016023953_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Migrations\\FootballCourtBookingContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FBS.DataAccess\\Migrations\\FootballCourtBookingContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FootballCourtBookingContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FBS.DataAccess\\FootballCourtBookingContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -238,36 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenModel.cs",
-              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
-              "RelativeDocumentMoniker": "FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
-              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
-              "RelativeToolTip": "FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T08:15:38.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReviewReplyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
-              "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
-              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
-              "RelativeToolTip": "FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T02:45:29.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CourtSlotRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\CourtSlotRepository.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\CourtSlotRepository.cs",
@@ -279,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CourtRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\CourtRepository.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\CourtRepository.cs",
@@ -291,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\BookingRepository.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\BookingRepository.cs",
@@ -303,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "FBS.BusinessLogics\\Services\\AuthService.cs",
@@ -311,12 +286,11 @@
               "RelativeToolTip": "FBS.BusinessLogics\\Services\\AuthService.cs",
               "ViewState": "AQIAAFwAAAAAAAAAAAAYwGwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T08:09:45.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T08:09:45.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\RepositoryBase.cs",
@@ -328,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "FBS.BusinessLogics\\Services\\BookingService.cs",
@@ -336,12 +310,11 @@
               "RelativeToolTip": "FBS.BusinessLogics\\Services\\BookingService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAArwA8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:31:09.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T07:31:09.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IdentityController.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Controllers\\IdentityController.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\IdentityController.cs",
@@ -354,7 +327,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-10-16T07:28:22.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Dockerfile",
+              "RelativeDocumentMoniker": "FBS.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Dockerfile",
+              "RelativeToolTip": "FBS.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-16T07:25:59.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FBS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\appsettings.json",
+              "RelativeToolTip": "FBS.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T01:55:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReviewReplyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
+              "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
+              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
+              "RelativeToolTip": "FBS.DataAccess\\Repositories\\ReviewReplyRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:45:29.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
+              "RelativeDocumentMoniker": "FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
+              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
+              "RelativeToolTip": "FBS.BusinessObjects\\BusinessModels\\AuthenModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:15:38.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\ReviewRepository.cs",
@@ -366,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\UserRepository.cs",
@@ -378,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Repositories\\UnitOfWork.cs",
@@ -390,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ServiceCollection.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\DependencyInjections\\ServiceCollection.cs",
               "RelativeDocumentMoniker": "FBS.API\\DependencyInjections\\ServiceCollection.cs",
@@ -402,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MapperConfig.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\DependencyInjections\\MapperConfig.cs",
               "RelativeDocumentMoniker": "FBS.API\\DependencyInjections\\MapperConfig.cs",
@@ -414,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Program.cs",
               "RelativeDocumentMoniker": "FBS.API\\Program.cs",
@@ -426,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 54,
               "Title": "20241016023953_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Migrations\\20241016023953_Initial.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Migrations\\20241016023953_Initial.cs",
@@ -438,19 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\appsettings.json",
-              "RelativeDocumentMoniker": "FBS.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\appsettings.json",
-              "RelativeToolTip": "FBS.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T01:55:25.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "FBS.Repositories.csproj",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FBS.Repositories.csproj",
               "RelativeDocumentMoniker": "FBS.DataAccess\\FBS.Repositories.csproj",
@@ -486,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "insert-data.txt",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\insert-data.txt",
               "RelativeDocumentMoniker": "FBS.DataAccess\\insert-data.txt",
@@ -498,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 55,
               "Title": "FootballCourtBookingContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Migrations\\FootballCourtBookingContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Migrations\\FootballCourtBookingContextModelSnapshot.cs",
@@ -522,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 56,
               "Title": "FootballCourtBookingContext.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\FootballCourtBookingContext.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\FootballCourtBookingContext.cs",
@@ -846,30 +870,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-16T07:28:22.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Dockerfile",
-              "RelativeDocumentMoniker": "FBS.API\\Dockerfile",
-              "ToolTip": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Dockerfile",
-              "RelativeToolTip": "FBS.API\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-16T07:25:59.352Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 49,
               "Title": "FBS.BusinessLogics.csproj",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessLogics\\FBS.BusinessLogics.csproj",
@@ -882,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 50,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FBS.API\\Properties\\launchSettings.json",
@@ -894,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 51,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.API\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\BookingsController.cs",
@@ -906,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 52,
               "Title": "FBS.BusinessObjects.csproj",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
               "RelativeDocumentMoniker": "FBS.BusinessObjects\\FBS.BusinessObjects.csproj",
@@ -918,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 53,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Alien Ware\\RiderProjects\\PRN231_PhuongLHK_Group_Asm_FootballCourtBooking\\FBS.DataAccess\\Entities\\User.cs",
               "RelativeDocumentMoniker": "FBS.DataAccess\\Entities\\User.cs",
